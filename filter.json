@@ -1,0 +1,21 @@
+{
+    "name": "filter",
+    "description": "Short description of the filter",
+    "filters": [
+        "base_filter"
+    ],
+    "help": "Long description of the filter.",
+    "support": [
+        "audio",
+        "video"
+    ],
+    "filter_source": {
+        "base_filter": "base_filter.c"
+    },
+    "Format": ["Audio", "Video"],
+    "extension":{
+      "ext1" : "audio",
+      "ext2" : "video"
+    },
+    "licence_required":false
+}
