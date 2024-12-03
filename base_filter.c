@@ -101,6 +101,7 @@ GF_Err base_filter_initialize(GF_Filter *filter)
 	return GF_OK;
 }
 
+
 #define OFFS(_n)	#_n, offsetof(GF_BaseFilter, _n)
 static const GF_FilterArgs ExampleFilterArgs[] =
 {
