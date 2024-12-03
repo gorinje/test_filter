@@ -70,6 +70,7 @@ static GF_Err base_filter_config_input(GF_Filter *filter, GF_FilterPid *pid, Boo
 	}
 
 
+
 	//setup output (if we are a filter not a sink)
 
 	stack->dst_pid = gf_filter_pid_new(filter);
