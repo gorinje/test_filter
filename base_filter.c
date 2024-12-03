@@ -10,6 +10,7 @@ typedef struct
 	GF_FilterPid *dst_pid;
 } GF_BaseFilter;
 
+
 static void base_filter_finalize(GF_Filter *filter)
 {
 	//peform any finalyze routine needed, including potential free in the filter context
