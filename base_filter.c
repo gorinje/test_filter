@@ -18,7 +18,6 @@ static void base_filter_finalize(GF_Filter *filter)
 	
 }
 
-
 static GF_Err base_filter_process(GF_Filter *filter)
 {
 	u8 *data_dst;
